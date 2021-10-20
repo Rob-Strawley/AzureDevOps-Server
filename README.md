@@ -1,7 +1,7 @@
 # AzureDevOps Server 2020
 Information related to Azure DevOps Server
 
-## Upgrade from TFS to DevOps Server on new hardware and new domain##
+## Upgrade from TFS to DevOps Server on new hardware and new domain ##
 
 ### Prepare TFS ###
 * Empty TFS Cache by copying and moving to another Folder, save for archiving. If cache is not empty, you may experience errors when importing TFS Databases into DevOps Server
