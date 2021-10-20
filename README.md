@@ -43,6 +43,7 @@ Summary from the Microsoft Documentation- https://docs.microsoft.com/en-us/azure
 * Must enter data in Work Item Type cells
 * Save as csv
 * Import into Azure DevOps Boards
+* Import Item Limitations- https://docs.microsoft.com/en-us/azure/devops/organizations/settings/work/object-limits?view=azure-devops-2020
 
 ## Import Test Plans using csv ##
 * Test Plans can only be imported individually by Test Suite, not as bulk. View Individual Test Suites in Grid View
