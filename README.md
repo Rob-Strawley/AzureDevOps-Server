@@ -44,7 +44,7 @@ Summary from the Microsoft Documentation- https://docs.microsoft.com/en-us/azure
 * Save as csv
 * Import into Azure DevOps Boards
 
-## Import Test PLans using csv ##
+## Import Test Plans using csv ##
 * Test Plans can only be imported individually by Test Suite, not as bulk. View Individual Test Suites in Grid View
 * Select all fields
 * Copy and Paste into an Excel Spreadsheet
