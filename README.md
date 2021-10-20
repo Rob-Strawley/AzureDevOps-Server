@@ -33,4 +33,29 @@ Summary from the Microsoft Documentation- https://docs.microsoft.com/en-us/azure
 
 
 
+## Import Work Items using csv ##
+* Install TFS Standalone Office Integration installer (for using Excel)
+* Create a Query based on Work Item Type (Any, Feature, etc.)
+* Select "Open in Excel"
+* Prepend Work Item ID numbers to the Title Column
+* Delete all values under ID Column, DevOps will not recognize imported ID numbers, hence the prior prepend instruction
+* Modify Columns to reflect the supported Column Order: ID,Work Item Type, Title, Assigned To, State, Area Path, Tags
+* Must enter data in Work Item Type cells
+* Save as csv
+* Import into Azure DevOps Boards
+
+## Import Test PLans using csv ##
+* Test Plans can only be imported individually by Test Suite, not as bulk. View Individual Test Suites in Grid View
+* Select all fields
+* Copy and Paste into an Excel Spreadsheet
+* Prepend Work Item ID numbers to the Title Column
+* Delete all values under ID Column, DevOps will not recognize imported ID numbers, hence the prior prepend instruction
+* Must enter data in Work Item Type cells
+* Must add a Revision number
+* Modify Columns to reflect the supported Column Order: ID,Work Item Type, Title, Test Step, Step Action, Step Expected, Revision, Area Path, Assigned to, State
+* Save as csv
+* Import into Azure DevOps Test Plan
+
+
+
 
