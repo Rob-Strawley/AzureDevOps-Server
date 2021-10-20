@@ -2,6 +2,7 @@
 Information related to Azure DevOps Server
 
 ## Upgrade from TFS to DevOps Server on new hardware and new domain ##
+Summary from the Microsoft Documentation- https://docs.microsoft.com/en-us/azure/devops/server/admin/move-across-domains?view=tfs-2018
 
 ### Prepare TFS ###
 * Empty TFS Cache by copying and moving to another Folder, save for archiving. If cache is not empty, you may experience errors when importing TFS Databases into DevOps Server
